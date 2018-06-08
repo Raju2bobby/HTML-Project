@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html Input Types</title>
+    <style>
+        div{
+            font-family: "Comic Sans MS", Sans-serif;
+            background-color: aquamarine;
+            color: indianred;
+            padding: 10px;
+            width: 400px;
+            margin: 5px;
+            font-size: 20px;
+
+        }
+    </style>
+</head>
+<body>
+ <!-- input type text -->
+    <div >
+        <form>
+            <label>UserName</label>
+            <input type="text">
+            <br>
+            <label>Password</label>
+            <input type="password">
+        </form>
+    </div>
+    <!-- input type submit -->
+ <div>
+        <form>
+            <label for="username">User Name</label>
+            <input type="text" id="username">
+            <br>
+            <label for="pass">Password</label>
+            <input type="text" id="pass">
+            <br>
+            <input type="Submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </form>
+ </div>
+    <!-- input type radio -->
+ <div>
+        <form>
+            <label>Is Html Easy ?</label>
+            <input type="radio" name="easy" value="yes">YES
+            <input type="radio" name="easy" value="no">NO
+        </form>
+ </div>
+    <!-- input type checkbox -->
+ <div>
+    <form>
+            <label>Select Your Hobbies</label>
+            <input type="checkbox" value="eating">Eating
+            <input type="checkbox" value="coding">Coding
+            <input type="checkbox" value="sleeping">Sleeping
+     </form>
+ </div>
+    <!-- input type button -->
+ <div>
+        <form>
+            <label>UserName</label>
+            <input type="text">
+            <input type="button" value="send">
+        </form>
+ </div>
+ <h2 style="color: green" align="center">HTML5 INPUT TYPES</h2>
+
+ <div>
+     <form>
+         <label>Select a color</label>
+         <input type="color">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select a Date</label>
+         <input type="date">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select Date & Time</label>
+         <input type="datetime-local">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Enter Email ID</label>
+         <input type="email">
+         <input type="submit" value="Submit">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select a Month</label>
+         <input type="month">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select Your Age</label>
+         <input type="number" min="18" max="125">
+         <input type="submit" value="Submit">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select a Range</label>
+         0<input type="range" min="0" max="100" id="range">100
+         <input type="submit" value="Submit" onclick="alert(document.getElementById('range').value)">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Search Here</label>
+         <input type="search">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Enter Website URL</label>
+         <input type="url">
+         <input type="submit" value="Submit">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select Week</label>
+         <input type="week">
+         <input type="submit" value="Submit">
+     </form>
+ </div>
+ <div>
+     <form>
+         <label>Select Time</label>
+         <input type="time" id="time">
+         <input type="submit" value="Submit" onclick="alert(document.getElementById('time').value)">
+     </form>
+ </div>
+
+
+ <!-- HTML5 Input Types color, date, datetime-local, email,
+    month, number, range, search, time, url, Week-->
+</body>
+</html>

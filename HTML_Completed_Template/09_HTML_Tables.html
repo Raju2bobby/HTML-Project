@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table</title>
+    <style>
+    table,th,td{
+       
+        border: 5px solid green;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial,sans-serif; 
+    }    
+#custom thead{
+        background-color: red;
+        color: white;
+    }    
+
+    </style>
+</head>
+ <body>
+ <h2 text align="center" >Simple Table</h2>
+ <table width="100%">
+     <thead>
+         <th>SNO</th>
+         <th>NAME</th>
+         <th>ADD</th>
+
+     </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Raju</td>
+        <td>Hyderabd</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>devi</td>
+        <td>Rajangarm</td>
+    </tr>
+     <tr>
+        <td>3</td>
+        <td>Rajesh</td>
+        <td>delhi</td>
+    </tr>
+</tbody>
+</table>  
+   <!-- Table with Col Span --> 
+      <h2 text align="center" >Table With Col Span</h2>
+ <table width="100%">
+     <thead>
+         <th>SNO</th>
+         <th colspan="2"> NAME & Address </th>
+        
+     </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Raju</td>
+        <td>Hyderabd</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>devi</td>
+        <td>Rajangarm</td>
+    </tr>
+     <tr>
+        <td>3</td>
+        <td>Rajesh</td>
+        <td>delhi</td>
+    </tr>
+</tbody>
+ </table>
+    <!-- Table With Row Span -->
+    <h2 text align="center">Table with Row Span</h2>
+    <table width="100%">
+     <thead>
+         <th>SNO</th>
+         <th>NAME</th>
+         <th>ADDRESS</th>
+
+     </thead>
+<tbody>
+    <tr>
+        <td rowspan="2">1</td>
+        <td>Raju</td>
+        <td>Hyderabd</td>
+    </tr>
+     <tr>
+        <td>devi</td>
+        <td>Rajangarm</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>Rajesh</td>
+        <td>delhi</td>
+    </tr>
+</tbody>
+ </table>
+  <!-- Custom Table with CSS -->
+    <h2 text align="center"> Custom Table with CSS</h2>
+    <table bgcolor="red" width="100%" id="custom">
+     <thead>
+         <th>SNO</th>
+         <th>NAME</th>
+         <th>ADD</th>
+
+     </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Raju</td>
+        <td>Hyderabd</td>
+    </tr>
+     <tr>
+        <td>2</td>
+        <td>devi</td>
+        <td>Rajangarm</td>
+    </tr>
+     <tr>
+        <td>3</td>
+        <td>Rajesh</td>
+        <td>delhi</td>
+    </tr>
+</tbody>
+ </table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DragonPage</title>
+    <link href="icon.jpg" rel="shortcut icon">
+    <style>
+        body{
+            background-image: url("house3.jpg");
+            background-repeat:no-repeat;
+            width:100%;
+
+        }
+    </style>
+</head>
+<body>
+<!-- BACKGROUND IMAGE -->
+
+</body>
+</html>
